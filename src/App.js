@@ -1,16 +1,16 @@
 import { VStack } from "@chakra-ui/react";
 import React from "react";
+import BoxMotion from "./components/BoxMotion";
+import GridMotion from "./components/GridMotion";
 
-import FlipText from "./components/FlipText";
-import RotateText from "./components/RotateText";
-import RollImages from "./components/RollImages";
+import TextMotion from "./components/TextMotion";
 
 function App() {
   return (
     <VStack className="App">
-      <FlipText />
-      <RotateText />
-      <RollImages />
+      <TextMotion />
+      <GridMotion />
+      <BoxMotion />
     </VStack>
   );
 }
