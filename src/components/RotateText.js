@@ -1,12 +1,11 @@
 import React from "react";
-import Rotate from "react-reveal/Rotate";
-import { Text } from "@chakra-ui/react";
+import { Text, Box } from "@chakra-ui/react";
 
 class RotateText extends React.Component {
   render() {
     return (
-      <div>
-        <Rotate top left>
+      <div data-aos="flip-down">
+        <Box w="450px">
           <Text>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
             maxime error adipisci illo, ea dicta vitae, molestias a delectus
@@ -21,7 +20,7 @@ class RotateText extends React.Component {
             omnis obcaecati minus asperiores illum, alias quaerat quo cupiditate
             odio, quasi quam sint inventore unde voluptas eligendi ea soluta et?
           </Text>
-        </Rotate>
+        </Box>
       </div>
     );
   }
